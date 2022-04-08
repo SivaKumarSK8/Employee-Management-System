@@ -94,17 +94,16 @@ b.addActionListener(this);
 l5.add(b);
 
 
-b1=new JButton("Submit");
+b1=new JButton("Dont submit");
 b1.setBounds(120,370,100,30);
 b1.addActionListener(this);
 l5.add(b1);
 b1.setVisible(false);
 
-b2=new JButton("Cancel");
+b2=new JButton("Success");
 b2.setBounds(260,370,100,30);
 b2.addActionListener(this);
 l5.add(b2);
-b2.setVisible(false);
 
 f.setSize(500,500);
 f.setLocation(300,50);
